@@ -36,7 +36,7 @@ class Components extends React.Component {
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Hire A Lambda Student Now"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -46,14 +46,14 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/lambda-girl.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
-                  <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                  <h1 className={classes.title} style={{ color: "rgb(187,18,50)" }}>Sip the Lambda Cool-Aid.</h1>
+                  <h3 className={classes.subtitle} style={{ color: "rgb(187,18,50)", fontSize: "4rem" }}>
+                    We dare you.
                   </h3>
                 </div>
               </GridItem>
@@ -62,15 +62,6 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
-          <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
-          <SectionCarousel />
-          <SectionCompletedExamples />
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
             <Link to={"/login-page"} className={classes.link}>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // @material-ui/core components
@@ -32,7 +33,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Material Kit React"
+          brand="Student GeoLocator"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -45,24 +46,19 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Your Story Starts With Us.</h1>
-                <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
-                </h4>
+                <h1 className={classes.title}>Sip the Cool-Aid. Hire Lambda.</h1>
+                <h3>
+                  We dare you.
+                </h3>
                 <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />
-                  Watch video
-                </Button>
+                <Link to={"/login-page"} className={classes.link}>
+                  <Button
+                    color="danger"
+                    size="lg"
+                  >
+                    Login/Sign Up
+                  </Button>
+                </Link>
               </GridItem>
             </GridContainer>
           </div>
