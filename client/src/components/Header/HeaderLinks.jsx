@@ -25,7 +25,7 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="Components"
+          buttonText="Menu"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
@@ -63,7 +63,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            href="https://twitter.com/LambdaSchool"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -81,7 +81,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://www.facebook.com/LambdaSchoolOnline/"
             target="_blank"
             className={classes.navLink}
           >
@@ -98,7 +98,7 @@ function HeaderLinks({ ...props }) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
+            href="https://www.instagram.com/LambdaSchool/"
             target="_blank"
             className={classes.navLink}
           >
