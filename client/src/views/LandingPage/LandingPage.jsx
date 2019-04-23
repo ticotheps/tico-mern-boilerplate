@@ -33,7 +33,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Student GeoLocator"
+          brand="Sign Up"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -56,7 +56,7 @@ class LandingPage extends React.Component {
                     color="danger"
                     size="lg"
                   >
-                    Login/Sign Up
+                    Login
                   </Button>
                 </Link>
               </GridItem>

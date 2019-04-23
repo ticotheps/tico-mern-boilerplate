@@ -21,7 +21,7 @@ import CustomInput from "components/CustomInput/CustomInput.jsx";
 
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
 
-import image from "assets/img/bg7.jpg";
+const lambdaGirl = "https://lambdaschool.com/static/images/herogirl.png";
 
 class LoginPage extends React.Component {
   constructor(props) {
@@ -47,14 +47,14 @@ class LoginPage extends React.Component {
         <Header
           absolute
           color="transparent"
-          brand="Material Kit React"
+          brand="Sign Up"
           rightLinks={<HeaderLinks />}
           {...rest}
         />
         <div
           className={classes.pageHeader}
           style={{
-            backgroundImage: "url(" + image + ")",
+            backgroundImage: "url(" + lambdaGirl + ")",
             backgroundSize: "cover",
             backgroundPosition: "top center"
           }}
@@ -65,7 +65,7 @@ class LoginPage extends React.Component {
                 <Card className={classes[this.state.cardAnimaton]}>
                   <form className={classes.form}>
                     <CardHeader color="primary" className={classes.cardHeader}>
-                      <h4>Login</h4>
+                      <h4>Login using</h4>
                       <div className={classes.socialLine}>
                         <Button
                           justIcon
