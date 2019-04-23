@@ -1,0 +1,19 @@
+{
+  "name": "tico-mern-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for MERN, full-stack apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ticotheps/tico-mern-boilerplate.git"
+  },
+  "author": "Tico S. Thepsourinthone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ticotheps/tico-mern-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ticotheps/tico-mern-boilerplate#readme"
+}
