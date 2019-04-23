@@ -21,6 +21,7 @@ import CustomInput from "components/CustomInput/CustomInput.jsx";
 
 import loginPageStyle from "assets/jss/material-kit-react/views/loginPage.jsx";
 
+
 const lambdaGirl = "https://lambdaschool.com/static/images/herogirl.png";
 
 class LoginPage extends React.Component {
